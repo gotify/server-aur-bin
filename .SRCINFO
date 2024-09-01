@@ -1,7 +1,7 @@
 pkgbase = gotify-server-bin
 	pkgdesc = A simple server for sending and receiving messages
 	pkgver = 2.5.0
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/gotify/server
 	arch = x86_64
 	arch = i686
@@ -19,7 +19,7 @@ pkgbase = gotify-server-bin
 	source = gotify-server.service
 	sha256sums = 2fa745496bf234879d18b417f10911ac145be5ed13a5379e38e2b50a650f5fc0
 	sha256sums = c251cc61b80968f606df9f9840519456fa5ba5f35ced44f73fda49059ed650b6
-	sha256sums = 14bd1a9270b089b99d9bbe8ebdd0c208c3f74c7347a792d508ffce75b0e1c641
+	sha256sums = e09a6bcb2bbc1d8d28ec21c86cef260a42a93650b13bd82f59cfc0e3838a3c66
 	sha256sums = 150a84f2f89d70c147cc3a2dbddb469f262ed2e8b6d3ffcb74eccb49dfdb2a24
 	sha256sums = 9aa04ff9a2981aa885d4f8df7467c4d7722aa12de7ae27376a4a11b559a0d1e2
 	source_x86_64 = gotify-linux-amd64-2.5.0.zip::https://github.com/gotify/server/releases/download/v2.5.0/gotify-linux-amd64.zip

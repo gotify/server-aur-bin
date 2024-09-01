@@ -3,7 +3,7 @@
 _pkgname=gotify-server
 pkgname=${_pkgname}-bin
 pkgver=2.5.0
-pkgrel=1
+pkgrel=2
 pkgdesc='A simple server for sending and receiving messages'
 arch=('x86_64' 'i686' 'armv7h' 'aarch64')
 url='https://github.com/gotify/server'
@@ -33,7 +33,7 @@ done
 
 sha256sums=('2fa745496bf234879d18b417f10911ac145be5ed13a5379e38e2b50a650f5fc0'
             'c251cc61b80968f606df9f9840519456fa5ba5f35ced44f73fda49059ed650b6'
-            '14bd1a9270b089b99d9bbe8ebdd0c208c3f74c7347a792d508ffce75b0e1c641'
+            'e09a6bcb2bbc1d8d28ec21c86cef260a42a93650b13bd82f59cfc0e3838a3c66'
             '150a84f2f89d70c147cc3a2dbddb469f262ed2e8b6d3ffcb74eccb49dfdb2a24'
             '9aa04ff9a2981aa885d4f8df7467c4d7722aa12de7ae27376a4a11b559a0d1e2')
 sha256sums_x86_64=('6cf0fb4608f734008c42850c15248a287621b620852d91d8cec6787d1c0e7189')
