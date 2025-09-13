@@ -2,7 +2,7 @@
 
 _pkgname=gotify-server
 pkgname=${_pkgname}-bin
-pkgver=2.6.3
+pkgver=2.7.1
 pkgrel=1
 pkgdesc='A simple server for sending and receiving messages'
 arch=('x86_64' 'i686' 'armv7h' 'aarch64')
@@ -36,10 +36,10 @@ sha256sums=('2fa745496bf234879d18b417f10911ac145be5ed13a5379e38e2b50a650f5fc0'
             'e09a6bcb2bbc1d8d28ec21c86cef260a42a93650b13bd82f59cfc0e3838a3c66'
             '150a84f2f89d70c147cc3a2dbddb469f262ed2e8b6d3ffcb74eccb49dfdb2a24'
             '8c3832004ed6f46e01ab69c993773da19b50a45862354165ed065bf3d2147b92')
-sha256sums_x86_64=('14e4ba3c8e50c988ad350be90d1fa8ea60b34ca827935123373e47faf38de3c3')
-sha256sums_i686=('5b761717d324f49360735534d8f2609051b4a3afe0f6769dfbddf77c28ab02ba')
-sha256sums_armv7h=('38b2cfb28f5985da258a7373310585122584460c2e411bd8356d0d8d1179ccc3')
-sha256sums_aarch64=('c4fa97b18508b47fc13be180ac194e7b7699bdb56976831206af252cda28b1c1')
+sha256sums_x86_64=('8e72c9bd1a68abdbbd763326c3206bf3fa1265f42580a17cf6ca2de0fb6d5abd')
+sha256sums_i686=('288d5ba11f2c356b8873db177938a04bc606698133bbe47b21e3fce7ef351f97')
+sha256sums_armv7h=('4ebb3d3a910c9ad6866d5e29aa14a37277ec995c9c7b041dc7f93c6161102fec')
+sha256sums_aarch64=('32c52f3c255ec950c0b322f622c5c41de0ac42e6bc7c1c16212af4e1a6b1c6dd')
 
 prepare() {
   patch --follow-symlinks --forward -o "$srcdir/config.yml" config.example.yml config.patch
