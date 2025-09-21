@@ -1,6 +1,5 @@
-diff -ura package.orig/config.example.yml package.new/config.example.yml
---- package.orig/config.example.yml	2020-03-08 14:59:02.828681120 +0100
-+++ package.new/config.example.yml	2020-03-12 02:30:06.273495477 +0100
+--- old.yml	2025-09-21 14:37:12.146136231 +0200
++++ new.yml	2025-09-21 14:38:51.529232688 +0200
 @@ -4,7 +4,7 @@
  server:
    keepaliveperiodseconds: 0 # 0 = use Go default (15s); -1 = disable keepalive; set the interval in which keepalive packets will be sent. Only change this value if you know what you are doing.
@@ -16,11 +15,11 @@ diff -ura package.orig/config.example.yml package.new/config.example.yml
        accepttos: false # if you accept the tos from letsencrypt
 -      cache: data/certs # the directory of the cache from letsencrypt
 +      cache: /var/lib/gotify/certs # the directory of the cache from letsencrypt
-       hosts: # the hosts for which letsencrypt should request certificates
- #      - mydomain.tld
- #      - myotherdomain.tld
-@@ -46,12 +46,12 @@
-
+       directoryurl: # override the directory url of the ACME server
+                     # Let's Encrypt highly recommend testing against their staging environment before using their production environment.
+                     # Staging server has high rate limits for testing and debugging, issued certificates are not valid
+@@ -50,12 +50,12 @@
+ 
  database: # for database see (configure database section)
    dialect: sqlite3
 -  connection: data/gotify.db
